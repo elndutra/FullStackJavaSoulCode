@@ -1,0 +1,21 @@
+body {
+    background-color:whitesmoke;
+}
+h1{
+    color:darkcyan;
+}
+
+p{
+    color:blueviolet;
+}
+.pAlterado {
+        border: 1px solid darkgreen ;
+    }
+
+    ul {
+        border: 1px solid darkgreen ;
+    }
+
+    li {
+        border: 1px solid darkblue ;
+    }
