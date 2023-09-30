@@ -1,0 +1,8 @@
+.imagem{
+    overflow: hidden;
+
+}
+
+.imagem img {
+    width: 100%;
+}

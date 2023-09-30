@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Aula 165 - Exercício Prático</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/style2.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src='main.js'></script>
+    <style>
+    
+    
+    .carousel-inner > .carousel-item > img {
+        width: 300px;
+        height: 200px; 
+      }
+    .carousel {
+        width: 300px;
+    }
+
+      </style>
+    
+</head>
+<body>
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-dark p-3" >
+        <div class="container-fluid" >
+                    <a class="navbar-brand" href="#"><img class="rounded-pill ms-3 mx-2 imagem" src="./img/perfilElielton.jpg" width="30px" height="30px"></a>
+                    <div class="container-fluid">
+        
+                            <div >
+                                <ul class="navbar-nav me-auto">
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                    </li>
+                                    <li class="nav-item">
+                                    <a class="nav-link" href="#">Disabled</a>
+                                    </li>
+                            </ul>                      
+                        </div>
+                </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+          <div class="col-sm-4">
+              <h2>Sobre mim</h2>
+              <div class="imagem border rounded mb-3"  > <img src="./img/perfilElielton.jpg"> </div>
+              <p> Aqui abaix você pode verificar alguns projetos que criei, mas descendo a página pode verificar sobre o conhecimento que obtive também com Bootstrap</p>
+              <h3 class="mt-4">Projetos</h3>
+              <p>Alguns projetos que criei </p>
+              <ul class="nav nav-pills flex-column ">
+                  <li class="nav-item ">
+                    <a class="nav-link  active bg-warning text-dark" href="html.html">Minha Primeira página HTML</a>
+                  </li>
+                  <li class="nav-item  ">
+                    <a class="nav-link text-dark " href="css.html">Primeria página estilizado com CSS</a>
+                  </li>
+                  <li class="nav-item  ">
+                    <a class="nav-link  text-dark " href="JavaScritp.html">Ao utilizando JavaScript</a>
+                  </li>
+              </ul>
+              <hr class="d-sm-none">
+            </div>
+              <div class="col-sm-8">
+                <h2>Elielton Dutra</h2>
+                <h5>Um pouco de minha experiência</h5>
+       
+                <p>Com experiência de mais de cinco anos na Área de Service Desk, Iniciando como Assistente de Service Desk, 
+                  depois com muito esforço e trabalho, Supervisor das Operações (Compartilhado, Capbpo, Machado Mayer e Bovespa). 
+                  Perfil de liderança de pessoas e processos confeccionei documentos, (Procedimento, Scripts, Manuais) para os clientes os Cliente Bematech, Ipaper, Iecisa, Valeo. 
+                  Conhecimento nas melhores práticas e referencias como : ITIL V3 Foundation ISO 2000 e COBIT Experiência em processos relacionados ao Gerenciamento de Serviços de Tecnologia da Informação, 
+                  um grande expertise sobre conceitos e elementos relacionados a metodologias e processos. Uma postura facilitadora, conciliadora e colaborativa, comprometida com o resultado da empresa e do cliente, 
+                  flexível, dinâmica com colegas e gestores. Procuro estar sempre atualizada para meu aprimoramento pessoal e profissional.</p>
+                <h2>Habilidades Técnicas
+                </h2>
+     
+        
+                <ol class="">
+                  <li>Rede de Computadores	-	Configuração de Acesso	</li>
+                  <li>Configuração e Utilização de E-mail	 </li>
+                  <li>HTML</li>
+                  <li>Css</li>
+                  <li>JavaScript</li>
+                  <li>Java</li>
+                  <li>Bootstrap</li>
+                  </ol>
+              </div>
+      </div>
+  </div>
+
+        <div class="container mt-3">
+          <div id="accordion">
+              <div class="card">
+                  <div class="card-header">
+                      <a class="btn" data-bs-toggle="collapse" href="#collapseOne"> Collapse  </a>
+                  </div>
+                  <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        Como funciona
+                        O plugin JavaScript de colapso é usado para mostrar e ocultar conteúdo. 
+                        Botões ou âncoras são usados ​​como gatilhos mapeados para elementos específicos que você alterna. 
+                        Recolher um elemento animará a altura de seu valor atual para 0. Dado como o CSS lida com animações, 
+                        você não pode usar preenchimento em um elemento .collapse. Em vez disso, use a classe como um elemento de encapsulamento independente.
+                        
+                      </div>
+                  </div>
+             </div>
+             <div class="card">
+              <div class="card-header">
+                  <a class="btn" data-bs-toggle="collapse" href="#collapseTwo"> Accordion </a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+                  <div class="card-body">
+                    Este é o corpo do acordeão do primeiro item. Ele é mostrado por padrão, 
+                    até que o plugin de recolhimento adicione as classes apropriadas que usamos para estilizar cada elemento. 
+                    Essas classes controlam a aparência geral, bem como mostrar e ocultar por meio de transições CSS. 
+                    Você pode modificar tudo isso com CSS personalizado ou substituindo nossas variáveis ​​padrão. 
+                    Também é importante notar que praticamente qualquer HTML pode entrar no .accordion-body, embora a transição limite o estouro.
+              </div>
+            </div>
+          </div>
+              <div class="card">
+                  <div class="card-header">
+                      <a class="btn" data-bs-toggle="collapse" href="#collapseThree"> Bootstrap </a>
+                  </div>
+                  <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+                      <div class="card-body">
+                        Bootstrap é um kit de ferramentas de front-end poderoso e repleto de recursos. Crie qualquer coisa, do protótipo à produção, em minutos.
+                      </div>
+                  </div>
+             </div>
+         </div>
+      </div>
+      </div>
+
+        <div class="container">
+            <p>
+                 <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Exibir
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body p-4">
+                  Essas duas imagem estão mostrando a utilizção do collapse em bootstrap.
+                </div>
+            
+                 <img class="rounded float-start p-4" src="https://picsum.photos/seed/picsum/200/300" width="300" height="200">
+
+                <img class="rounded float-end p-4" src="https://fastly.picsum.photos/id/24/4855/1803.jpg?hmac=ICVhP1pUXDLXaTkgwDJinSUS59UWalMxf4SOIWb9Ui4" width="300" height="200">
+          </div>
+        </div>
+      
+
+        <div class="container p-3 my-5">
+        <div class="list-group container">
+            <div>  <h5> Top 10 do melhores</h5> </div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2" src="https://i.pravatar.cc/150?img=1" alt="avatar" width="30px" height="30px"> João Fedengoso</div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2"" src="https://i.pravatar.cc/150?img=2" alt="avatar" width="30px" height="30px"> Pedro da Esquina</div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2"" src="https://i.pravatar.cc/150?img=3" alt="avatar" width="30px" height="30px"> Jonhy do bar</div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2"" src="https://i.pravatar.cc/150?img=4" alt="avatar" width="30px" height="30px"> Walter de Casa</div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2"" src="https://i.pravatar.cc/150?img=5" alt="avatar" width="30px" height="30px"> Feição de Camaleao</div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2"" src="https://i.pravatar.cc/150?img=6" alt="avatar" width="30px" height="30px"> João das Neves</div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2"" src="https://i.pravatar.cc/150?img=7" alt="avatar" width="30px" height="30px"> Luiz azucrinaldo </div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2"" src="https://i.pravatar.cc/150?img=8" alt="avatar" width="30px" height="30px"> Julios pai do Cris</div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2"" src="https://i.pravatar.cc/150?img=9" alt="avatar" width="30px" height="30px"> Tonho mulambento </div>
+            <div class="list-group-item border bg-light"><img  class="rounded-pill ms-3 mx-2"" src="https://i.pravatar.cc/150?img=10" alt="avatar" width="30px" height="30px"> Batiao abrito de cadeado</div>
+        </div>
+    </div>
+    
+
+                <div class=" container alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Calma! antes de seguir </strong> Você precisa assistir os filmes abaixo.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="container">
+                        <table class="table table-hover" >
+                            <tr>
+                            <th>Filmes</th>
+                            <th>Onde assistir</th>
+                            <th>Trailer </th>
+                            </tr>
+                            <tr>
+                            <td>Desaparecida (2023)</</td>
+                            <td>HBO Max</td>
+                            <td><a  href="https://youtu.be/z4kkz2Xnie4">Youtube</a></td>
+                            </tr>
+                            <tr>
+                            <tr>
+                            <td>A Baleia (2022)</</td>
+                            <td>Claro TV+</td>
+                            <td><a class="link" href="https://youtu.be/vqi1OuxQtJ8">Youtube</a></td>
+                            </tr>
+                            <tr>
+                            <tr>
+                            <td>Arremessando Alto (2022)</</td>
+                            <td>Netflix</td>
+                            <td><a class="link" href="https://youtu.be/vIMm04L916I">Youtube</a></td>
+                            </tr>
+                            <tr>
+                            <td>A Filha Perdida (2021)</</td>
+                            <td>Netflix</td>
+                            <td><a class="link" href="https://youtu.be/s63AZRGzUtc?t=43">Youtube</a></td>
+                            </tr>
+                            <tr>
+                            <td>Duna (2021)</</td>
+                            <td>Netflix</td>
+                            <td><a class="link" href="https://youtu.be/dnBpZuSUISQ">Youtube</a></td>
+                            </tr>
+                            <tr>
+                            
+                        
+                        </table>
+
+                     
+                </div>   
+
+                <div class="container" style="align-items: center;">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="https://i.pravatar.cc/150?img=11"   alt="Imagem aleatoria">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://i.pravatar.cc/150?img=12"  alt="Imagem aleatoria">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://i.pravatar.cc/150?img=13" alt="Imagem aleatoria">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                </div>
+        
+                    
+                          <footer class="container bg-light text-center py-3 my-4">
+                        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Início</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Processos</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+                      </ul>
+                      <p class="text-center text-body-secondary">© 2023 Companhia, Inc</p>
+                </footer>
+                
+</body>      
+               
+</html>
+
